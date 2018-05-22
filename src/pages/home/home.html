@@ -8,18 +8,21 @@
 
 <ion-content padding>
   <ion-item>
-    <ion-label >Username</ion-label>
+    <ion-label floating>Username</ion-label>
     <ion-input type="text" ></ion-input>
   </ion-item>
   <ion-item>
-    <ion-label >Password</ion-label>
+    <ion-label floating>Password</ion-label>
     <ion-input type="password" ></ion-input>
   </ion-item>
  <br>
 
   <button ion-button block >Sign in</button>
-<br>
-  OR
-<br>
-<button ion-button block >Sign in with Facebook</button>
+
+  <div text-center>
+    OR
+  </div>
+
+  <button ion-button block color = "dark">Sign in with Facebook</button>
+  <button ion-button block color ="danger">Sign in with Google</button>
 </ion-content>
