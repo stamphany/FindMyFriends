@@ -11,6 +11,6 @@ export class HomePage {
 
   }
   signIn(){
-    
+    alert("Yeh!!!");
   }
 }
