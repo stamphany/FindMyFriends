@@ -9,15 +9,15 @@
 <ion-content padding>
   <ion-item>
     <ion-label floating>Username</ion-label>
-    <ion-input type="text" ></ion-input>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
   </ion-item>
   <ion-item>
     <ion-label floating>Password</ion-label>
-    <ion-input type="password" ></ion-input>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
   </ion-item>
  <br>
 
-  <button ion-button block (click)="signIn()">Sign in</button>
+  <button ion-button block (click)="signIn(username,password)">Sign in</button>
 
   <div text-center>
     OR
